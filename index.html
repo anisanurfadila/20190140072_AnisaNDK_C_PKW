@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 1</title>
+ <style>
+     .coba{
+        width:101.3%;
+        height:100px;
+        background-color:#046582;
+        margin-left: -7.9px;
+        margin-top:-2%;
+        box-shadow:  2px 2px 2px rgba(0,0,0,0.8);
+        float: left;
+     }
+     .coba h1{
+         padding-top: 25px;
+         padding-left: 5px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 35px;;
+         color: #bb8082;
+         text-align: center;
+         
+     }
+    .content2 {
+	width: 101.5%;
+	height: auto;
+	float:left;
+	background: #E8E8E8;		
+    margin-left: -10px;
+    }
+    .content2 h1{
+    color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    }
+    .content2 img
+    {
+        width: 20%;
+        margin-left: 40%;
+    }
+     .kelas{
+	width: 30%;
+	height: 150px;
+	background-color:#cbdaf8;
+	float:left;
+	margin-top:1%;
+	margin-left:2.5%;
+    
+    }
+    .kelas h2
+    {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:#046582 ;
+    }
+    .kelas p
+    {
+        text-align: center;
+        font-size: 20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .content3 {
+	width: 101.5%;
+	height: 500px;
+	float:left;
+	background: #bb8082;		
+    margin-left: -10px;
+    }
+    .content3 h1{
+    color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px; 
+    }
+    .garis{
+        border-left: 1px black solid;
+		height: 100px;
+		width: 5px;
+    }
+    .tilkum{
+	width: 30%;
+	height: 285px;
+	background-color:#cbdaf8;
+	float:left;
+	margin-top:1%;
+	margin-left:5%;
+    border-radius: 15px 50px 30px;
+    }
+    .tilkum h2
+    {
+        color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .tilkum p
+    {
+        text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+    .umy{
+	width: 30%;
+	height: 285px;
+	background-color:#cbdaf8;
+	float:right;
+    margin-top: -285px;
+    margin-right: 5%;
+    border-radius: 15px 50px 30px;
+    }
+    .umy h2
+    {
+        color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .umy p
+    {
+        text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+    .garis{
+	height: 60%;
+    border-left: 1px black dashed;
+    margin-left: 50%;
+    }
+
+    .skill{
+	width: 101.5%;
+	height: 200px;
+	float:left;
+	background: #cbdaf8;		
+    margin-left: -10px;
+    }
+    .skill h1{
+    color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    font-size: 40px;
+    margin-top: 5%;
+    }
+    .skill h2{
+        color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    }
+    .garis2{
+	height: 70%;
+    border-left: 1px black dashed;
+    margin-left: 15%;
+    margin-top: -105px;
+    }
+    .nav
+    {
+        margin-left: 250px;
+        margin-top: -120px;
+    }
+    .nav a{
+    margin-right:10px;
+	margin-left:20px;
+	line-height:3;
+	text-decoration:none;
+	color:#bb8082;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:25px;
+    }
+    .organisasi{
+	width: 101.5%;
+	height: 200px;
+	float:left;
+	background: #046582;		
+    margin-left: -10px;
+    padding-top: 20px;
+    }
+  
+    .kelas2{
+	width: 30%;
+	height: 150px;
+	background-color:#046582;
+	float:left;
+	margin-top:1%;
+	margin-left:3%;
+    opacity:0.95;
+    border-right: 2px black dashed;
+    padding-left: 5PX;
+    }
+    .kelas2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    }
+    .kelas2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#bb8082;
+    }
+   
+    .sertifikasi{
+	width: 101.5%;
+	height: 200px;
+	float:left;
+	background: #bb8082;		
+    margin-left: -10px;
+    padding-top: 20px;
+    }
+    .sertifikasi h1
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    font-size: 40px;
+    }
+    .kelas3{
+    width: 35%;
+	height: 150px;
+	background-color:#bb8082;
+	float:right;
+	margin-top:-7%;
+	margin-left:3%;
+    opacity:0.95;
+    border-left: 2px #cbdaf8 dashed;
+    padding-left: 5PX;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .kelas3 p
+    {
+        color:#046582 ;
+        
+    }
+
+    .motivasi{ 
+	width: 50%;
+	height: auto;
+	background-color:#cbdaf8;
+	float:left;
+    margin-left: -1%;
+    }
+    .motivasi h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: #046582;
+    }
+    .harapan{ 
+	width: 50%;
+	height: auto;
+	background-color:#046582;
+	float:right;
+    }
+    .harapan h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: #cbdaf8;
+    }
+    .harvasi{
+	width: 75%;
+	height: 130px;
+	background-color:#bb8082;
+	float:left;
+    border-radius: 100%;
+    margin-left: 13%;
+    text-align: center;
+    padding-top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+ </style>
+</head>
+
+<body>
+<!--Header-->
+<div class="coba">
+    <h1 class="judul">B I O D A T A</h1>
+</div>
+
+<!--BIO-->
+<div class="content2">
+    <!--Nama-->
+    <h1>
+        ANISA NURFADILA 
+        <span> 
+            <span style="color:#f39189 ">DWI KARINA
+            </span>
+        </span>
+    </h1> 
+    <img src="1.png">
+    <hr style="width:90%;">
+
+    <!--Tempat-->
+    <div class="kelas">
+		<h2>Tempat Lahir</h2>
+		<hr style="width:90%;"></hr>
+     <p>Magetan</p>
+	</div>
+    
+    <!--TAnggal lahir-->
+	<div class="kelas">
+		<h2>Tanggal Lahir</h2>
+		<hr style="width:90%;"></hr>
+        <p>5 Februari 2001</p>
+    </div>
+
+    <!--Sosmed-->
+    <div class="kelas">
+		<h2>Contact Me</h2>
+		<hr style="width:90%;"></hr>
+        <a href="http://instagram.com/anisanurfadilaa">
+            <img src="ig.png" style="float: left;width: 9%;">
+            </a>
+        <a href="http://twitter.com/anisarius">
+            <img src="twit.png" style="float: left;width: 10%;margin-left: 15px;">
+            </a>
+    </div>
+    <br>
+    <p></p>
+    <hr style="width:90%;">  
+    <hr style="width:90%;">  
+</div>
+
+<!--Pendidikan-->
+<div class="content3">
+<h1>PENDIDIKAN</h1>
+
+    <!--Asal sekolah-->
+    <div class="tilkum">
+        <img src="https://ppdb.smktelkom-mlg.sch.id/assets/images/ts1.png" width="30%" style="margin-left: 30%;margin-top: 10px;">
+        <h2>SMK TELKOM MALANG</h2>
+        <p>Rekayasa Perangkat Lunak</p>
+        <p style="color: seagreen;">Juli 2016 - Mei 2019</p>
+    </div>
+
+    <div class="garis"></div>
+
+        <!--Tempat kuliah-->
+    <div class="umy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Muhammadiyah_University_of_Yogyakarta_logo.gif" width="30%" style="margin-left: 35%;margin-top: 10px;">
+        <h2>Universitas Muhammadiyah Yogyakarta (UMY)</h2>
+        <p>Teknologi Informasi</p>
+        <p style="color: seagreen;">Agustus 2019 - Sekarang</p>
+    </div>
+</div>
+
+<!--Skill-->
+<div class="skill">
+    <h1>SKILL</h1>
+    
+    <div class="garis2"></div>
+    <div class="nav"><b>
+        <a>HTML</a>
+        <a>CSS</a>
+        <a>PHP</a>
+        <a>C#</a>
+        <a>JAVA</a>
+        <a>PYTHON</a>
+        <a>UI/UX</a>
+    </div>
+
+</div>
+
+<!--Organisasi-->
+<div class="organisasi">
+    <div class="kelas2">
+        <h1>KMTI</h1>
+        <p>2019-Sekarang</p>
+    </div>
+    <div class="kelas2" >
+        <h1>IT Specta</h1>
+        <p>2019</p>
+    </div>
+    <h1 style="color:#cbdaf8; font-size: 50px; font-family: Arial, Helvetica, sans-serif; margin-top: 65px;float: right;margin-right: 50px;">
+        ORGANISASI</h1>
+</div>
+
+<!--Sertifikat-->
+<div class="sertifikasi">
+    <h1>SERTIFIKAT</h1>
+    <div class="kelas3">
+        <h2>Web Application Development Fundamental with C#</h2>
+        <p>Inixindo Academy Program</p>
+    </div>
+    <div class="kelas3">
+        <h2>Software Development Fundamental with C#</h2>
+        <p>Inixindo Academy Program</p>
+    </div>
+</div>
+
+<!--Motivasi-->
+<div class="motivasi">
+    <h1>MOTIVASI</h1>
+    <div class="harvasi">
+        <p>Percaya kalau teknologi gak akan ada habisnya. Jadi banyak-banyak belajar teknologi.</p>
+    </div>
+</div>
+
+<!--Harapan-->
+<div class="harapan">
+    <h1>HARAPAN</h1>
+    <div class="harvasi">
+        <p>Kerja jadi data scientist di perusahaan gede</p>
+    </div>
+</div>
+</body>
+</html>
