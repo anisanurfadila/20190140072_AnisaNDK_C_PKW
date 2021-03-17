@@ -1,0 +1,331 @@
+body{
+    background-color: #e2e7f3;
+}
+/* header */
+.coba{
+    width:100%;
+    height:90px;
+    background-color:#046582;
+    box-shadow:  2px 2px 2px rgba(165, 165, 165, 0.8);
+    float: left;
+ }
+ .coba h1{
+     padding-top: 18px;
+     padding-left: 100px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;;
+     color: #bb8082;
+     text-align:left;
+     margin-top: 10px; 
+ }
+
+
+ /* menu */
+/* .pilihan
+{
+	margin-top: -4%;
+}
+.pilihan a
+{
+    color: #bb8082;
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    text-align: center;
+}
+
+
+*/
+/* nama foto */
+.content2 {
+width: 101.5%;
+height: auto;
+float:left;
+background: transparent;		
+margin-left: -10px;
+}
+.content2 h1{   
+width: 50%;
+color: #046582;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 70px;
+margin-left: 10%;
+}
+.content2 img
+{
+margin-top: -17%;
+width: 20%;
+float: right;
+padding-right: 15%;
+}
+
+
+
+/* get to know me */
+/* bagian kiri */
+.kelas{
+width: 50%;
+height: 230px;
+background-color:white;
+float:left  ;
+margin-top:1%;
+margin-left:10%;
+border-radius: 5px 0px 0px 5px;
+box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+.kelas ul li{
+    margin-top: 2%;
+    margin-left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kelas h2
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#046582 ;
+}
+.kelas p
+{
+    text-align: left;
+    font-size: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+
+/* get to know me kanan */
+.kelaskanan{
+    width: 30%;
+    height: 230px;
+    background-color:white;
+    float:left  ;
+    margin-top:1%;
+    border-left: 3px dashed grey;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+.kelaskanan h1{
+width: 60%;
+color: #046582;
+text-align: right;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+padding-left: 100px;
+}
+
+.pendidikan{
+    width: 80%;
+    height: auto;
+    background-color:white;
+    float:left;
+    margin-top:3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+
+}
+
+.pendidikan h1{
+    color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+    .tilkum{
+    width: 30%;
+    height: 285px;
+    background-color:white;
+    float:left;
+    margin-left:10%;
+    border-radius: 15px 50px 30px;
+    }
+    .tilkum h2
+    {
+    color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .tilkum p
+    {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+    .umy{
+    width: 30%;
+    height: 285px;
+    background-color:white;
+    float:right;
+    margin-right: 10%;
+    border-radius: 5px 5px 5px 5px;
+    
+    }
+    .umy h2
+    {
+    color: #046582;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .umy p
+    {
+        text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+    .garis{
+    height: 100%;
+    border-left: 10px black dashed;
+    margin-left: 50%;
+    }
+
+
+
+.skill{
+    width: 80%;
+    height: 90px;
+    background-color:white;
+    float:left;
+    margin-top:3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+.skill h1{
+color: #046582;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 2%;
+font-size: 40px;
+margin-top: 2%;
+}
+.garis2{
+height: 50%;
+border-left: 1px black dashed;
+margin-left: 15%;
+margin-top: -7%;
+}
+.nav
+{
+    margin-left: 20%;
+    margin-top: -6%;
+}
+.nav a{
+margin-right:10px;
+margin-left:20px;
+line-height:3;
+text-decoration:none;
+color:#bb8082;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-size:25px;
+}
+
+.organisasi{
+    width: 80%;
+    height: 320px;
+    background-color:white;
+    float:left;
+    margin-top:3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+
+.listorgan{
+    width: 90%;
+    height: auto;
+    background-color:white;
+    float:left;
+    margin-left: 4%;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:  1px 1px 1px 1px  rgba(118, 131, 148, 0.8);
+    border: 1px solid #76898f;
+    margin-top: 1%;
+}
+.organisasi h1{
+    color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    font-size: 40px;
+    margin-top: 2%;
+}
+.listorgan h2{
+    color: #bb8082;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+.listorgan p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-top: -1%;
+    font-size: 15px;
+}
+.listorgan h5{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color:#046582;
+    margin-top: -5%;
+    margin-right: 2%;
+}
+
+.gabung{
+    width: 80%;
+    height: 200px;
+    float:left;
+    margin-top:3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    border: 5px solid #bb8082;
+}
+.gabung h1{
+    color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.gabung p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+}
+.mnh{
+    width: 47%;
+    height: 170px;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color:white;
+    float:left;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+.mnh2{
+    width: 47%;
+    height: 170px;
+    background-color:white;
+    float:right;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
+
+.footer{
+    width:100%;
+    height:70px;
+    background-color:transparent;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    border-top: 2px solid rgba(168, 156, 156, 0.548);
+ }
+ .footer p{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 15px;
+    color: #046582;
+    font-family: Arial, Helvetica, sans-serif;
+}
