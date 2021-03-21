@@ -1,16 +1,21 @@
 body{
     background-color: #e2e7f3;
+    
 }
 /* header */
+*{
+    margin:0;
+    padding: 0;
+}
 .coba{
-    width:100%;
-    height:90px;
+    width:98%;
+    height:auto;
     background-color:#046582;
     box-shadow:  2px 2px 2px rgba(165, 165, 165, 0.8);
     float: left;
+    padding: 1%;
  }
  .coba h1{
-     padding-top: 18px;
      padding-left: 100px;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 35px;;
@@ -19,33 +24,12 @@ body{
      margin-top: 10px; 
  }
 
-
- /* menu */
-/* .pilihan
-{
-	margin-top: -4%;
-}
-.pilihan a
-{
-    color: #bb8082;
-    font-weight: bold;
-	font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    float: left;
-    text-align: center;
-}
-
-
-*/
-/* nama foto */
 .content2 {
-width: 101.5%;
 height: auto;
 float:left;
 background: transparent;		
 margin-left: -10px;
+margin-top: 2%;
 }
 .content2 h1{   
 width: 50%;
@@ -54,32 +38,30 @@ text-align: left;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 70px;
 margin-left: 10%;
+
 }
 .content2 img
 {
-margin-top: -17%;
+margin-top: -12%;
 width: 20%;
 float: right;
 padding-right: 15%;
 }
 
 
-
 /* get to know me */
 /* bagian kiri */
 .kelas{
-width: 50%;
-height: 230px;
-background-color:white;
+width: 60%;
+height: auto;
 float:left  ;
-margin-top:1%;
-margin-left:10%;
-border-radius: 5px 0px 0px 5px;
-box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+margin-top:0%;
+margin-left:1%;
+padding: 1%;
 }
 .kelas ul li{
     margin-top: 2%;
-    margin-left: 0%;
+    margin-left: 8%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .kelas h2
@@ -91,36 +73,45 @@ box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
 }
 .kelas p
 {
+    margin-top: 3%;
     text-align: left;
     font-size: 15px ;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 3%;
 }
-
+.gabungkelas{
+    width: 79%;
+    height: auto;
+    background-color:white;
+    float:left;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+}
 
 /* get to know me kanan */
 .kelaskanan{
-    width: 30%;
-    height: 230px;
-    background-color:white;
-    float:left  ;
-    margin-top:1%;
+    width: 25%;
+    height: auto;
+    float:right  ;
+    margin-top:0%;
     border-left: 3px dashed grey;
-    border-radius: 0px 5px 5px 0px;
-    box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+    padding: 1%;
 }
 .kelaskanan h1{
 width: 60%;
 color: #046582;
-text-align: right;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 50px;
-padding-left: 100px;
+padding-left: 1px;
+text-align: left;
 }
 
 .pendidikan{
-    width: 80%;
+    padding: 1%;
+    width: 77%;
     height: auto;
     background-color:white;
     float:left;
@@ -139,11 +130,11 @@ padding-left: 100px;
 }
     .tilkum{
     width: 30%;
-    height: 285px;
+    height: auto;
     background-color:white;
     float:left;
     margin-left:10%;
-    border-radius: 15px 50px 30px;
+    border-radius: 5px 5px 5px 5px;
     }
     .tilkum h2
     {
@@ -156,39 +147,43 @@ padding-left: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-top: 2%;
     }
     .umy{
     width: 30%;
-    height: 285px;
+    height: auto;
     background-color:white;
     float:right;
     margin-right: 10%;
-    border-radius: 5px 5px 5px 5px;
     
+    border-radius: 5px 5px 5px 5px;
     }
     .umy h2
     {
     color: #046582;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     }
     .umy p
     {
         text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-top: 2%;
     }
     .garis{
     height: 100%;
     border-left: 10px black dashed;
     margin-left: 50%;
+    margin-top: 10%;
     }
 
 
 
 .skill{
     width: 80%;
-    height: 90px;
+    height: auto;
     background-color:white;
     float:left;
     margin-top:3%;
@@ -203,16 +198,13 @@ margin-left: 2%;
 font-size: 40px;
 margin-top: 2%;
 }
-.garis2{
-height: 50%;
-border-left: 1px black dashed;
-margin-left: 15%;
-margin-top: -7%;
-}
+
 .nav
 {
     margin-left: 20%;
     margin-top: -6%;
+    
+border-left: 1px dashed gray;
 }
 .nav a{
 margin-right:10px;
@@ -226,13 +218,14 @@ font-size:25px;
 
 .organisasi{
     width: 80%;
-    height: 320px;
+    height: auto;
     background-color:white;
     float:left;
     margin-top:3%;
     margin-left: 10%;
     border-radius: 10px 10px 10px 10px;
     box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
+    padding-bottom: 3%;
 }
 
 .listorgan{
@@ -244,7 +237,8 @@ font-size:25px;
     border-radius: 5px 5px 5px 5px;
     box-shadow:  1px 1px 1px 1px  rgba(118, 131, 148, 0.8);
     border: 1px solid #76898f;
-    margin-top: 1%;
+    margin-top: 2%;
+    padding: 1px;
 }
 .organisasi h1{
     color: #046582;
@@ -261,7 +255,7 @@ font-size:25px;
 .listorgan p{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
-    margin-top: -1%;
+    margin-top: 1%;
     font-size: 15px;
 }
 .listorgan h5{
@@ -273,13 +267,14 @@ font-size:25px;
 }
 
 .gabung{
-    width: 80%;
-    height: 200px;
+    width: 78%;
+    height: auto;
     float:left;
     margin-top:3%;
     margin-left: 10%;
     border-radius: 10px 10px 10px 10px;
     border: 5px solid #bb8082;
+    padding: 1%;
 }
 .gabung h1{
     color: #046582;
@@ -289,12 +284,13 @@ font-size:25px;
 }
 .gabung p{
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin-top: 3%;
     text-align: center;
 }
 .mnh{
+    padding: 6px;
     width: 47%;
-    height: 170px;
+    height: auto;
     margin-top: 1%;
     margin-left: 1%;
     background-color:white;
@@ -303,8 +299,9 @@ font-size:25px;
     box-shadow:  2px 2px 1px 1px  rgba(165, 165, 165, 0.8);
 }
 .mnh2{
+    padding: 6px;
     width: 47%;
-    height: 170px;
+    height: auto;
     background-color:white;
     float:right;
     margin-right: 1%;
@@ -328,4 +325,222 @@ font-size:25px;
     font-size: 15px;
     color: #046582;
     font-family: Arial, Helvetica, sans-serif;
+}
+.spasi{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1260px){
+    
+    .coba h1{
+        margin-top: 1%;
+        float: left;
+    }
+    .content2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .content2 h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin: 0px;
+    }
+    .content2 img{
+        margin-top: 0%;
+        margin-right: 0px;
+        margin-left: 20%;
+    }
+    .kelas p{
+        font-weight: normal;
+        font-size: 12px;
+    }
+    
+    .kelaskanan h1{
+        font-size: 30px;
+        text-align: left;
+    }
+    .kelaskanan{
+        border-left: 0px;
+        
+    }
+    .kelas ul li{
+        margin-top: 1%;
+    }
+    .pendidikan{
+        padding: 2%;
+        width: 75%;
+    }
+    .pendidikan h1{
+        font-size: 25px;
+    }
+    .tilkum{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 3%;
+        padding: 2%;
+    }
+    .tilkum img{
+        display: none;
+    }
+    .tilkum h2{
+        font-size: 15px;
+    }
+    .tilkum p{
+        font-weight: lighter;
+        font-size: 10px;
+    }
+    .umy {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-right: 3%;
+        padding: 2%;
+        float: right;
+    }
+    .umy img{
+        display: none;
+    }
+    .umy h2{
+        font-size: 15px;
+    }
+    .umy p{
+        font-weight: lighter;
+        font-size: 10px;
+    }
+    .skill {
+        height: auto;
+        width: 78%;
+        padding: 1%;
+    }
+    .skill h1{
+        font-size: 25px;
+    }
+    .nav{
+        border-left: none;
+    }
+    .nav a{
+        font-size: 15px;
+    }
+    .organisasi h1{
+        font-size: 25px;
+    }
+    .listorgan h2{
+        font-size: 20px;
+    }
+    .listorgan p{
+        width: 60%;
+        font-size: 12px;
+    }
+    .gabung{
+        height: auto;
+        padding: 1%;
+    }
+    .mnh{
+        width: 45%;
+    }
+    .mnh h1{
+        font-size: 25px;
+    }
+    .mnh p{
+        font-size: 12px;
+    }
+    .mnh2{
+        width: 45%;
+    }
+    .mnh2 h1{
+        font-size: 25px;
+    }
+    .mnh2 p{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:530px){
+    .coba h1{
+        font-size: 15px;
+        float: left;
+        margin-left: -15%;
+    }
+    .content2 h1{
+        font-size: 18px;
+    }
+    .kelas p{
+        font-size: 10px;
+    }
+    .kelas ul li{
+        font-size: 8px;
+    }
+    .kelas img{
+        width: 8%;
+    }
+    .kelaskanan h1{
+        font-size: 18px;
+    }
+    .pendidikan h1{
+        font-size: 18px;
+    }
+    .tilkum h2{
+        font-size: 12px;
+    }
+    .tilkum p{
+        font-size: 8px;
+    }
+    .umy h2{
+        font-size: 12px;
+    }
+    .umy p{
+        font-size: 8px;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill h1{
+        font-size: 18px;
+    }
+    .nav a {
+        font-size: 10px;
+    }
+    .organisasi h1{
+        font-size: 18px;
+    }
+    .listorgan h2{
+        font-size: 15px;
+    }
+    .listorgan p{
+        font-size: 10px;
+    }
+    .listorgan h5{
+        font-size: 8px;
+    }
+    .mnh{
+        width: 42%;
+    }
+    .mnh h1{
+        font-size: 18px;
+    }
+    .mnh p{
+        font-size: 10px;
+    }
+    .mnh2{
+        width: 42%;
+    }
+    .mnh2 h1{
+        font-size: 18px;
+    }
+    .mnh2 p{
+        font-size: 10px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
 }
