@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+text-align: center;
+background-image: url(wp.jpg);
+}
+
+.isi{
+    margin-top: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.isi h1{
+    padding: 1%;
+}
