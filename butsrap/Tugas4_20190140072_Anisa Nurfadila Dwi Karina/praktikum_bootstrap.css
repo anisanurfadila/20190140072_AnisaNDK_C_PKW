@@ -1,0 +1,15 @@
+body
+{
+    background-color: black;
+}
+.hero-banner{
+    background-image: url(wp.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 50px;
+}
+

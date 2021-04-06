@@ -1,0 +1,14 @@
+Nama : Anisa Nurfadila Dwi Karina
+Nim : 20190140072
+Kelas : PKW C
+
+Link heroku :
+https://anisapkw1.herokuapp.com/praktikum_bootstrap.html
+
+Link Github :
+https://github.com/anisanurfadila/20190140072_AnisaNDK_C_PKW
+
+
+
+
+note : maap ya bang isinya korea :)
